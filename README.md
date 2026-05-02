@@ -68,7 +68,7 @@ curl -X GET http://localhost:8080/api/v1/rooms
 ```bash
 curl -X POST http://localhost:8080/api/v1/rooms \
   -H "Content-Type: application/json" \
-  -d '{"id":"HALL-001","name":"Main Hall","capacity":200}'
+  -d '{"id":"HALL-002","name":"Main Hall","capacity":200}'
 ```
 
 ### 4. Get a specific room
